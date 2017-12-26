@@ -9,9 +9,41 @@ h1 {
   color: white;
 }
 
-.header {
+h2 {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p {
+  font-family: Helvetica;
+  font-size: 14px;
+
+}
+
+.flatiron {
   background-image: url( "../images/the-flatiron-building.png");
   background-size: cover;
+}
+
+.designed {
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+
+.footer {
+  font-family: Helvetica;
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
 }
 
 nav a {
@@ -19,4 +51,11 @@ nav a {
   font-family: Helvetica;
   font-size: 18px;
   color: white;
+}
+
+.footer {
+  text-align: left;
+}
+.footer nav a, .footer nav {
+  display: inline;
 }
